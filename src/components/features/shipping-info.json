@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_features_shipping_infos",
+  "info": {
+    "displayName": "ShippingInfo",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "address2": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "zipCode": {
+      "type": "integer"
+    }
+  }
+}
