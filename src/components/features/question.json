@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_features_questions",
+  "info": {
+    "displayName": "Question",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question1": {
+      "type": "boolean",
+      "default": false
+    },
+    "question2": {
+      "type": "boolean",
+      "default": false
+    },
+    "question3": {
+      "type": "boolean",
+      "default": false
+    },
+    "confirm": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -835,6 +835,12 @@ export interface ApiOrderOrder extends Schema.CollectionType {
           localized: true;
         };
       }>;
+    Question: Attribute.Component<'features.question'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

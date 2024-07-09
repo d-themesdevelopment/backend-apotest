@@ -57,6 +57,16 @@
         }
       },
       "component": "features.shipping-info"
+    },
+    "Question": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "features.question"
     }
   }
 }
