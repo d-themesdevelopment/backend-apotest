@@ -9,8 +9,8 @@ export interface FeaturesQuestion extends Schema.Component {
   };
   attributes: {
     question1: Attribute.Boolean & Attribute.DefaultTo<false>;
-    question2: Attribute.Boolean & Attribute.DefaultTo<false>;
-    question3: Attribute.Boolean & Attribute.DefaultTo<false>;
+    question2: Attribute.String;
+    question3: Attribute.Boolean;
     confirm: Attribute.Boolean & Attribute.DefaultTo<false>;
   };
 }

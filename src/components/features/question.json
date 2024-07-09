@@ -12,12 +12,10 @@
       "default": false
     },
     "question2": {
-      "type": "boolean",
-      "default": false
+      "type": "string"
     },
     "question3": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "confirm": {
       "type": "boolean",
